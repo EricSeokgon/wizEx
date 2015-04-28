@@ -3,20 +3,17 @@
  */
 public class TestEx {
     public static void main(String[] args) {
+
+        char c = 'C';
         int i = 10;
-        int j = 20;
-        int h = 30;
-
-        char c = 'A';
-        char d = 'a';
-        char e = 'B';
-
-        System.out.println(i);
-        System.out.println(j);
-        System.out.println(h);
+        double d = 3.14D;
+        boolean b = true;
 
         System.out.println(c);
+        System.out.println(i);
         System.out.println(d);
-        System.out.println(e);
+        System.out.println(b);
+
+
     }
 }
