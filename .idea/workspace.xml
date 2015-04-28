@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="C:\Users\sklee\IdeaProjects\wizEx\out\production\wizEx\VarEx.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sklee\IdeaProjects\wizEx\src\VarEx.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/wizEx/TestEx.class" afterPath="$PROJECT_DIR$/out/production/wizEx/TestEx.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestEx.java" afterPath="$PROJECT_DIR$/src/TestEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VarEx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VarEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestEx.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7148515">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48910892">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -486,7 +481,7 @@
       <option name="number" value="Default" />
       <updated>1430195520020</updated>
       <workItem from="1430195526706" duration="8000" />
-      <workItem from="1430195543036" duration="1083000" />
+      <workItem from="1430195543036" duration="1418000" />
     </task>
     <task id="LOCAL-00001" summary="wiz java init">
       <created>1430195931004</created>
@@ -498,7 +493,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1091000" />
+    <option name="totallyTimeSpent" value="1426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="916" extended-state="0" />
@@ -546,18 +541,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/VarEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7148515">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.48910892">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
