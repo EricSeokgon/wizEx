@@ -1,4 +1,4 @@
-package com.sklee.calex;
+package com.javalec.calex;
 
 /**
  * Created by sklee on 2015-04-28.

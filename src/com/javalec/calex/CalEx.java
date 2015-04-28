@@ -1,4 +1,4 @@
-package com.sklee.calex;
+package com.javalec.calex;
 
 import java.util.Scanner;
 
