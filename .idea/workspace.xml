@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sklee/calex/CalculationEx.java" afterPath="$PROJECT_DIR$/src/com/sklee/calex/CalculationEx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sklee/calex/CalEx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculationEx.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculationEx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sklee/calex/CalculationEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6773547">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalEx.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sklee/calex/CalEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5450902">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/VarEx.java" />
         <option value="$PROJECT_DIR$/src/TestEx.java" />
         <option value="$PROJECT_DIR$/src/com/sklee/calex/CalculationEx.java" />
+        <option value="$PROJECT_DIR$/src/com/sklee/calex/CalEx.java" />
       </list>
     </option>
   </component>
@@ -184,7 +195,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.CalculationEx">
+  <component name="RunManager" selected="Application.CalEx">
     <configuration default="false" name="TestEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestEx" />
@@ -208,6 +219,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.sklee.calex.CalculationEx" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wizEx" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sklee.calex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.sklee.calex.CalEx" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -520,14 +551,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.TestEx" />
       <item index="1" class="java.lang.String" itemvalue="Application.CalculationEx" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CalEx" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.CalculationEx" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestEx" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.CalEx" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CalculationEx" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestEx" />
       </list>
     </recent_temporary>
   </component>
@@ -550,7 +583,7 @@
       <workItem from="1430195543036" duration="2148000" />
       <workItem from="1430197821518" duration="150000" />
       <workItem from="1430197990112" duration="338000" />
-      <workItem from="1430198372443" duration="827000" />
+      <workItem from="1430198372443" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="wiz java init">
       <created>1430195931004</created>
@@ -570,15 +603,21 @@
       <option name="project" value="LOCAL" />
       <updated>1430198471880</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="연산자 학습">
+      <created>1430199219486</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1430199219486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3471000" />
+    <option name="totallyTimeSpent" value="3776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="916" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -621,7 +660,8 @@
     <MESSAGE value="wiz java init" />
     <MESSAGE value="형변화 테스트" />
     <MESSAGE value="인코딩 utf-8 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="인코딩 utf-8 변경" />
+    <MESSAGE value="연산자 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="연산자 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -690,8 +730,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sklee/calex/CalculationEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6773547">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sklee/calex/CalEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5450902">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
