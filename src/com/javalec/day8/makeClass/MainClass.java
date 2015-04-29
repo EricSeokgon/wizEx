@@ -17,6 +17,6 @@ public class MainClass {
         mc.getAge();
         mc.setAge(16);
 
-        mc.calculateBMI()
+        mc.calculateBMI();
     }
 }
