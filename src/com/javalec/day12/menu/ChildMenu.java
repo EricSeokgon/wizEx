@@ -16,16 +16,20 @@ public class ChildMenu extends ParentMenu {
         System.out.println("쇠고기 청국장");
     }
 
-    public void makeHotDoenJangGuk(){
+    public void makeHotDoenJangGuk() {
         System.out.println("얼큰 된장국");
     }
 
-    public void makeKongNaMool(){
+    public void makeKongNaMool() {
         System.out.println("콩나물국");
     }
 
-    public void makeChungGukJang(){
+    public void makeChungGukJang() {
         System.out.println("냄새 없는 청국장");
     }
 
+    @Override
+    public void makeGalbijjim() {
+        System.out.println("맛있는 갈비찜");
+    }
 }
