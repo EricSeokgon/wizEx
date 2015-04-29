@@ -22,7 +22,7 @@ public class HeightAve {
             iArr[i] = scanner.nextInt();
             totalHeight = totalHeight + iArr[i];
         }
-        System.out.println("학생들의 편균 신장은 " + (totalHeight / iArrname.length) + "입니다.");
+        System.out.println("학생들의 평균 신장은 " + (totalHeight / iArrname.length) + "입니다.");
         for (int i = 0; i < iArr.length; i++) {
             if (iArr[i] > maxH) {
                 maxH = iArr[i];
