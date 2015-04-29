@@ -11,8 +11,12 @@ import com.javalec.day8.human.WomanClass;
  */
 public class MainClass {
     public static void main(String[] args) {
-        WomanClass wc = new WomanClass();
-        WomanClass wc1 = new WomanClass();
-        System.out.println(wc.equals(wc1));
+        ManClass mc = new ManClass();
+        ManClass mc1 = new ManClass(15, 160, 50, "010-5555-3333");
+
+        mc.getAge();
+        mc.setAge(16);
+
+        mc.calculateBMI()
     }
 }
