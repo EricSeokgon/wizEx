@@ -25,7 +25,7 @@ public class ChildMenu extends ParentMenu {
     }
 
     public void makeChungGukJang(){
-        System.out.println("냄세 없는 청국장");
+        System.out.println("냄새 없는 청국장");
     }
 
 }
