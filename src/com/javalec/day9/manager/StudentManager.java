@@ -27,6 +27,10 @@ public class StudentManager {
         System.out.println(manager.students.get(0).getAge());
         System.out.println(manager.students.get(0).getStudentNum());
         System.out.println(manager.students.get(0).getMajor());
+
+        manager.students.get(0).updateInfo(1, "홍길동");
+
+        System.out.println(manager.students.get(0).getName());
     }
 
     private void addStudent(String name, int age, int studentNum, String major) {
