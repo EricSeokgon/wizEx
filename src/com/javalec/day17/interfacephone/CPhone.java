@@ -10,6 +10,15 @@ package com.javalec.day17.interfacephone;
  * To change this template use File | Settings | File Templates.
  */
 public class CPhone implements IFunction {
+
+    public CPhone() {
+        System.out.println("CPhone입니다.");
+        callSenderReceive();
+        canLte();
+        tvRemoteController();
+        System.out.println("================");
+    }
+
     @Override
     public void callSenderReceive() {
         System.out.println("가능 합니다.");

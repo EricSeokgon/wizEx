@@ -24,12 +24,12 @@ public class MainClass {
 
         IFunction[] iFunctions = {aPhone, bPhone, cPhone};
 
-        for (int i = 0; i < iFunctions.length; i++) {
+/*        for (int i = 0; i < iFunctions.length; i++) {
             iFunctions[i].callSenderReceive();
             iFunctions[i].canLte();
             iFunctions[i].tvRemoteController();
             System.out.println("=================================");
 
-        }
+        }*/
     }
 }

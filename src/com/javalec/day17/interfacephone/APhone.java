@@ -11,6 +11,15 @@ package com.javalec.day17.interfacephone;
  * To change this template use File | Settings | File Templates.
  */
 public class APhone implements IFunction {
+
+    public APhone() {
+        System.out.println("APhone 입니다.");
+        callSenderReceive();
+        canLte();
+        tvRemoteController();
+        System.out.println("================");
+    }
+
     @Override
     public void callSenderReceive() {
         System.out.println("가능 합니다.");
