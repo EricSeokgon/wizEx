@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="git ignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day23/wrapper/WrapperEx.java" />
+    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="스트링형을 인트로 변환">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day23/wrapper/WrapperEx.java" afterPath="$PROJECT_DIR$/src/com/javalec/day23/wrapper/WrapperEx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -38,11 +38,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WrapperEx.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/javalec/day23/wrapper/WrapperEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51403886">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.6133909">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -867,13 +877,7 @@
       <workItem from="1430294849232" duration="753000" />
       <workItem from="1430355883131" duration="12466000" />
       <workItem from="1430439552327" duration="9892000" />
-      <workItem from="1430456816173" duration="1558000" />
-    </task>
-    <task id="LOCAL-00002" summary="형변화 테스트">
-      <created>1430196994778</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1430196994778</updated>
+      <workItem from="1430456816173" duration="1799000" />
     </task>
     <task id="LOCAL-00003" summary="인코딩 utf-8 변경">
       <created>1430198471880</created>
@@ -1163,11 +1167,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430457894969</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="기초데이터를 객체 데이터로 변환">
+      <created>1430458389608</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1430458389608</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53270000" />
+    <option name="totallyTimeSpent" value="53511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1185,13 +1195,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.49083665" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.4812749" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288948" sideWeight="0.4685259" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756326" sideWeight="0.4621514" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.54103583" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.54741037" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.49083665" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.45896414" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.45258963" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.4876494" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1223,8 +1233,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="static 연습" />
-    <MESSAGE value="static 메인 클래스 작성" />
     <MESSAGE value="상속 학습" />
     <MESSAGE value="자식 클래스 매소드 수정" />
     <MESSAGE value="음식정 메뉴 상속 학습" />
@@ -1248,7 +1256,9 @@
     <MESSAGE value="random 난수 학습" />
     <MESSAGE value="Scanner 사용법" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="기초데이터를 객체 데이터로 변환" />
+    <MESSAGE value="스트링형을 인트로 변환" />
+    <option name="LAST_COMMIT_MESSAGE" value="스트링형을 인트로 변환" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1558,16 +1568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1430458365325" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day22/stringBuilderex/StringBuilderEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1624,10 +1624,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day23/wrapper/WrapperEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51403886">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.6133909">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
