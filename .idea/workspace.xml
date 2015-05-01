@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="fh">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/FlyNo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/FlyYes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/KnifeLazer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/KnifeNo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/KnifeWood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/MisailNo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/MisailYes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/IKnife.java" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/IKnife.java" />
+    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -923,7 +915,7 @@
       <workItem from="1430285542081" duration="5880000" />
       <workItem from="1430294849232" duration="753000" />
       <workItem from="1430355883131" duration="12466000" />
-      <workItem from="1430439552327" duration="5906000" />
+      <workItem from="1430439552327" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="wiz java init">
       <created>1430195931004</created>
@@ -1165,11 +1157,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430446609796</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="로봇 인터페이스 추가">
+      <created>1430446665446</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1430446665446</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47726000" />
+    <option name="totallyTimeSpent" value="47771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1225,7 +1223,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="배열 문법 학습" />
     <MESSAGE value="객체지향 구구단 프로그램" />
     <MESSAGE value="객체 프로그램 기초 학습" />
     <MESSAGE value="생성자 생성 및 게터 세터 생성" />
@@ -1250,7 +1247,8 @@
     <MESSAGE value="전략패턴 로봇 구현" />
     <MESSAGE value="로봇 인터페이스 구현" />
     <MESSAGE value="로봇 구형 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="로봇 구형 리팩토링" />
+    <MESSAGE value="로봇 인터페이스 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="로봇 인터페이스 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
