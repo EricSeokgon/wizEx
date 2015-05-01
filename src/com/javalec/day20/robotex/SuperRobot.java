@@ -1,5 +1,6 @@
 package com.javalec.day20.robotex;
 
+
 /**
  * Project: wizEx
  * FileName: SuperRobot
@@ -9,25 +10,13 @@ package com.javalec.day20.robotex;
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public class SuperRobot extends Robot{
+public class SuperRobot extends Robot {
 
     public SuperRobot() {
     }
 
     @Override
-    public void actionFly() {
-        System.out.println("날수 있습니다.");
+    public void shape() {
+        System.out.println("SuperRobot 로봇입니다. 외형은 팔,다리,몸통,머리가 있습니다.");
     }
-
-    @Override
-    public void actionMisail() {
-        System.out.println("미사일 쏠 수 있습니다.");
-    }
-
-    @Override
-    public void actionKnife() {
-        System.out.println("레이저검이 있습니다.");
-    }
-
-
 }

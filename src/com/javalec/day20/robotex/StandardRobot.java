@@ -1,5 +1,6 @@
 package com.javalec.day20.robotex;
 
+
 /**
  * Project: wizEx
  * FileName: StandardRobot
@@ -11,24 +12,13 @@ package com.javalec.day20.robotex;
  */
 public class StandardRobot extends Robot {
 
+
     public StandardRobot() {
 
     }
 
     @Override
-    public void actionFly() {
-        System.out.println("날수 없습니다.");
+    public void shape() {
+        System.out.println("StandardRobot 로봇입니다. 외형은 팔,다리,몸통,머리가 있습니다.");
     }
-
-    @Override
-    public void actionMisail() {
-        System.out.println("미사일 쏠 수 있습니다.");
-    }
-
-    @Override
-    public void actionKnife() {
-        System.out.println("목검이 있습니다.");
-    }
-
-
 }

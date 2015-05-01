@@ -1,5 +1,6 @@
 package com.javalec.day20.robotex;
 
+
 /**
  * Project: wizEx
  * FileName: LowRobot
@@ -11,22 +12,12 @@ package com.javalec.day20.robotex;
  */
 public class LowRobot extends Robot {
 
+
     public LowRobot() {
     }
 
     @Override
-    public void actionFly() {
-        System.out.println("날수 없습니다.");
+    public void shape() {
+        System.out.println("LowRobot 로봇입니다. 외형은 팔,다리,몸통,머리가 있습니다.");
     }
-
-    @Override
-    public void actionMisail() {
-        System.out.println("미사일 쏠 수 없습니다.");
-    }
-
-    @Override
-    public void actionKnife() {
-        System.out.println("검이 없습니다.");
-    }
-
 }

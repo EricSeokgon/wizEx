@@ -1,5 +1,9 @@
 package com.javalec.day20.robotex;
 
+import com.javalec.day21.robotex.inter.IFly;
+import com.javalec.day21.robotex.inter.IKnife;
+import com.javalec.day21.robotex.inter.IMisail;
+
 /**
  * Project: wizEx
  * FileName: Robot
@@ -10,6 +14,11 @@ package com.javalec.day20.robotex;
  * To change this template use File | Settings | File Templates.
  */
 public abstract class Robot {
+
+    IFly fly;
+    IMisail misail;
+    IKnife knife;
+
 
     public Robot() {
     }
@@ -22,13 +31,29 @@ public abstract class Robot {
         System.out.println("달릴 수 있습니다.");
     }
 
-    public void Shape() {
-        System.out.println("SuperRobot 로봇입니다. 외형은 팔,다리,몸통,머리가 있습니다.");
+    public abstract void shape();
+
+    public void setFly(IFly fly) {
+        this.fly = fly;
     }
 
-    public abstract void actionFly();
+    public void setMisail(IMisail misail) {
+        this.misail = misail;
+    }
 
-    public abstract void actionMisail();
+    public void setKnife(IKnife knife) {
+        this.knife = knife;
+    }
 
-    public abstract void actionKnife();
+    public void actionFly() {
+        this.fly.fly();
+    }
+
+    public void actionMisail() {
+        this.misail.misail();
+    }
+
+    public void actionKnife() {
+        this.knife.knife();
+    }
 }
