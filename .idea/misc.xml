@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1398432925479" />
+    <option name="importOrderConfigFilePath" value="D:/eclipse.xml" />
+    <option name="importOrderFromFile" value="true" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="D:/eclipse.xml" />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
