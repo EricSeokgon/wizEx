@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day22/currenttimemillisex/CurrentTimeMillisEx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -44,10 +43,10 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1430456404576" expanded="true" signature="86138:86180" placeholder="..." />
-                <marker date="1430456404576" expanded="true" signature="86138:86198" placeholder="..." />
-                <marker date="1430456404576" expanded="true" signature="86138:86211" placeholder="..." />
-                <marker date="1430456404576" expanded="true" signature="86138:86226" placeholder="..." />
+                <marker date="1430456431080" expanded="true" signature="86240:86282" placeholder="..." />
+                <marker date="1430456431080" expanded="true" signature="86240:86300" placeholder="..." />
+                <marker date="1430456431080" expanded="true" signature="86240:86313" placeholder="..." />
+                <marker date="1430456431080" expanded="true" signature="86240:86328" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -888,7 +887,7 @@
       <workItem from="1430285542081" duration="5880000" />
       <workItem from="1430294849232" duration="753000" />
       <workItem from="1430355883131" duration="12466000" />
-      <workItem from="1430439552327" duration="9866000" />
+      <workItem from="1430439552327" duration="9892000" />
     </task>
     <task id="LOCAL-00001" summary="wiz java init">
       <created>1430195931004</created>
@@ -1166,11 +1165,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430455836074</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="연산 경과 시간 테스트">
+      <created>1430456427880</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1430456427880</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51686000" />
+    <option name="totallyTimeSpent" value="51712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1226,7 +1231,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="재적학생 클래스 작성" />
     <MESSAGE value="학사 메니저 클래스 작성" />
     <MESSAGE value="학생 정보 수정 메소드 추가" />
     <MESSAGE value="학생 정보 수정 테스트" />
@@ -1251,7 +1255,8 @@
     <MESSAGE value="String의 이해" />
     <MESSAGE value="Stringbuilder 학습" />
     <MESSAGE value="날짜 api 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="날짜 api 학습" />
+    <MESSAGE value="연산 경과 시간 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="연산 경과 시간 테스트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1673,10 +1678,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430456404576" expanded="true" signature="86138:86180" placeholder="..." />
-            <marker date="1430456404576" expanded="true" signature="86138:86198" placeholder="..." />
-            <marker date="1430456404576" expanded="true" signature="86138:86211" placeholder="..." />
-            <marker date="1430456404576" expanded="true" signature="86138:86226" placeholder="..." />
+            <marker date="1430456431080" expanded="true" signature="86240:86282" placeholder="..." />
+            <marker date="1430456431080" expanded="true" signature="86240:86300" placeholder="..." />
+            <marker date="1430456431080" expanded="true" signature="86240:86313" placeholder="..." />
+            <marker date="1430456431080" expanded="true" signature="86240:86328" placeholder="..." />
           </folding>
         </state>
       </provider>
