@@ -13,6 +13,6 @@ public class FlyNo implements IFly {
 
     @Override
     public void fly() {
-        System.out.println("날수 업습니다.");
+        System.out.println("날수 없습니다.");
     }
 }

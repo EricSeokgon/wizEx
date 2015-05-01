@@ -1,6 +1,10 @@
 package com.javalec.day20.robotex;
 
 
+import com.javalec.day21.robotex.inter.FlyYes;
+import com.javalec.day21.robotex.inter.KnifeLazer;
+import com.javalec.day21.robotex.inter.MisailYes;
+
 /**
  * Project: wizEx
  * FileName: SuperRobot
@@ -13,6 +17,11 @@ package com.javalec.day20.robotex;
 public class SuperRobot extends Robot {
 
     public SuperRobot() {
+
+        fly = new FlyYes();
+        misail = new MisailYes();
+        knife = new KnifeLazer();
+
     }
 
     @Override

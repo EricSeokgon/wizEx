@@ -1,5 +1,6 @@
 package com.javalec.day20.robotex;
 
+import com.javalec.day21.robotex.inter.FlyNo;
 import com.javalec.day21.robotex.inter.FlyYes;
 import com.javalec.day21.robotex.inter.KnifeLazer;
 import com.javalec.day21.robotex.inter.MisailYes;
@@ -23,12 +24,14 @@ public class MainClass {
         superRobot.actionWalk();
         superRobot.actionRun();
 
-        superRobot.setFly(new FlyYes());
+        //superRobot.setFly(new FlyYes());
         superRobot.actionFly();
-        superRobot.setMisail(new MisailYes());
+        //superRobot.setMisail(new MisailYes());
         superRobot.actionMisail();
-        superRobot.setKnife(new KnifeLazer());
+        //superRobot.setKnife(new KnifeLazer());
         superRobot.actionKnife();
+
+
     }
 
 }
