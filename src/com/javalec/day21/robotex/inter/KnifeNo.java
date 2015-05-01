@@ -2,14 +2,18 @@ package com.javalec.day21.robotex.inter;
 
 /**
  * Project: wizEx
- * FileName: IKnife
+ * FileName: KnifeNo
  * Date: 2015-05-01
- * Time: 오전 10:39
+ * Time: 오전 10:48
  * Author: Hadeslee
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public interface IKnife {
+public class KnifeNo implements IKnife {
 
-    void knife();
+    @Override
+    public void knife() {
+        System.out.println("검이 없습니다.");
+    }
 }
+

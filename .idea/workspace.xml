@@ -10,11 +10,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/MisailNo.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/MisailYes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/IKnife.java" afterPath="$PROJECT_DIR$/src/com/javalec/day21/robotex/inter/IKnife.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day20/robotex/LowRobot.java" afterPath="$PROJECT_DIR$/src/com/javalec/day20/robotex/LowRobot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day20/robotex/MainClass.java" afterPath="$PROJECT_DIR$/src/com/javalec/day20/robotex/MainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day20/robotex/Robot.java" afterPath="$PROJECT_DIR$/src/com/javalec/day20/robotex/Robot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day20/robotex/StandardRobot.java" afterPath="$PROJECT_DIR$/src/com/javalec/day20/robotex/StandardRobot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day20/robotex/SuperRobot.java" afterPath="$PROJECT_DIR$/src/com/javalec/day20/robotex/SuperRobot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -928,7 +923,7 @@
       <workItem from="1430285542081" duration="5880000" />
       <workItem from="1430294849232" duration="753000" />
       <workItem from="1430355883131" duration="12466000" />
-      <workItem from="1430439552327" duration="5855000" />
+      <workItem from="1430439552327" duration="5906000" />
     </task>
     <task id="LOCAL-00001" summary="wiz java init">
       <created>1430195931004</created>
@@ -1164,11 +1159,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430444479345</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="로봇 구형 리팩토링">
+      <created>1430446609796</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1430446609796</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47675000" />
+    <option name="totallyTimeSpent" value="47726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1192,7 +1193,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.49083665" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33866668" sideWeight="0.4749004" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33866668" sideWeight="0.4749004" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.4876494" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1224,7 +1225,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="배열 연습" />
     <MESSAGE value="배열 문법 학습" />
     <MESSAGE value="객체지향 구구단 프로그램" />
     <MESSAGE value="객체 프로그램 기초 학습" />
@@ -1249,7 +1249,8 @@
     <MESSAGE value="싱글턴 패턴 예제" />
     <MESSAGE value="전략패턴 로봇 구현" />
     <MESSAGE value="로봇 인터페이스 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="로봇 인터페이스 구현" />
+    <MESSAGE value="로봇 구형 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="로봇 구형 리팩토링" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
