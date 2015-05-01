@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day24/timerex/ExTimerTask1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day24/timerex/ExTimerTask2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day24/timerex/MainClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day24/timerex/TimerEx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day24/stringtokenizer/TokenizerEx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -31,14 +28,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TimerEx.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TimerEx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javalec/day24/timerex/TimerEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57667387">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenizerEx.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/javalec/day24/stringtokenizer/TokenizerEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33909288">
+              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/javalec/day12/inex/MainClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day12/inex/ParentClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day12/inex/ChildClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day12/menu/MainClass.java" />
@@ -159,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/com/javalec/day24/timerex/ExTimerTask2.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day24/timerex/MainClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day24/timerex/TimerEx.java" />
+        <option value="$PROJECT_DIR$/src/com/javalec/day24/stringtokenizer/TokenizerEx.java" />
       </list>
     </option>
   </component>
@@ -369,7 +376,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="timerex" />
+              <option name="myItemId" value="day24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wizEx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wizEx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javalec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stringtokenizer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,27 +460,7 @@
       <recent name="com.javalec.day11.children" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass (1)">
-    <configuration default="false" name="CurrentTimeMillisEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javalec.day22.currenttimemillisex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.javalec.day22.currenttimemillisex.CurrentTimeMillisEx" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="wizEx" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TokenizerEx">
     <configuration default="false" name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -516,6 +529,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.javalec.day24.timerex.MainClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wizEx" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TokenizerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javalec.day24.stringtokenizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.javalec.day24.stringtokenizer.TokenizerEx" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -829,19 +862,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CurrentTimeMillisEx" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainClass" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ScannerEx" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WrapperEx" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainClass" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ScannerEx" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WrapperEx" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TokenizerEx" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainClass (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WrapperEx" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ScannerEx" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CurrentTimeMillisEx" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TokenizerEx" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WrapperEx" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ScannerEx" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -872,13 +905,7 @@
       <workItem from="1430294849232" duration="753000" />
       <workItem from="1430355883131" duration="12466000" />
       <workItem from="1430439552327" duration="9892000" />
-      <workItem from="1430456816173" duration="2968000" />
-    </task>
-    <task id="LOCAL-00004" summary="연산자 학습">
-      <created>1430199219486</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1430199219486</updated>
+      <workItem from="1430456816173" duration="3361000" />
     </task>
     <task id="LOCAL-00005" summary="3의 배수 확인 계산기">
       <created>1430199526667</created>
@@ -1168,11 +1195,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430458627102</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="타임머 스케쥴 학습">
+      <created>1430459808034</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1430459808034</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54680000" />
+    <option name="totallyTimeSpent" value="55073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1196,7 +1229,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.49083665" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.4494024" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.4494024" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.4876494" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1228,7 +1261,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="상속 학습" />
     <MESSAGE value="자식 클래스 매소드 수정" />
     <MESSAGE value="음식정 메뉴 상속 학습" />
     <MESSAGE value="메뉴 오타 수정" />
@@ -1253,7 +1285,8 @@
     <MESSAGE value="git ignore" />
     <MESSAGE value="기초데이터를 객체 데이터로 변환" />
     <MESSAGE value="스트링형을 인트로 변환" />
-    <option name="LAST_COMMIT_MESSAGE" value="스트링형을 인트로 변환" />
+    <MESSAGE value="타임머 스케쥴 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="타임머 스케쥴 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1266,13 +1299,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/javalec/day11/staticex/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day12/inex/ParentClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1639,11 +1665,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day24/timerex/TimerEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57667387">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javalec/day24/stringtokenizer/TokenizerEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33909288">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
