@@ -23,7 +23,7 @@ public class arraylistex {
         String index3 = arrayList.get(3);
         System.out.println("index3 = " + index3);
 
-        arrayList.set(2, "str2222222");
+        arrayList.set(2, "str3333333");
         System.out.println(arrayList.toString());
 
         int size = arrayList.size();
@@ -37,7 +37,7 @@ public class arraylistex {
 
         arrayList = null;
         System.out.println(arrayList);
-        System.out.println(arrayList.size());
+       // System.out.println(arrayList.size());
 
 
     }
