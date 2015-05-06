@@ -22,7 +22,7 @@ public class URLConEx {
     public URLConEx() {
 
         String code = null;
-        System.out.println("웹 주소를 입력 하세요");
+        System.out.println("웹 주소를 입력 하세요 ex)http://www.googlr.com");
         Scanner scanner = new Scanner(System.in);
         String address = scanner.next();
 
