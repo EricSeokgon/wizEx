@@ -20,6 +20,7 @@ public class HashMapEx {
         hashMap.put(1, "str1");
         hashMap.put(2, "str2");
         hashMap.put(3, "str3");
+        hashMap.put(4, "str2");
         System.out.println(hashMap.toString());
 
         String str = hashMap.get(2);

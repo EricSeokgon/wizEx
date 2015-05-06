@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day27/collections/HashSetEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day27/collections/HashMapEx.java" afterPath="$PROJECT_DIR$/src/com/javalec/day27/collections/HashMapEx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -20,7 +20,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\sklee\IdeaProjects\wizEx" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/javalec/day27/collections/HashMapEx.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="HashSetEx.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/javalec/day27/collections/HashSetEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9265659">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.412527">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="e#363#371#0" expanded="true" />
               </folding>
@@ -79,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/javalec/day14/abstractEx/ChildClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day14/abstractEx/MainClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day14/abstractEx/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day17/interfacephone/iFunction.java" />
@@ -130,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/com/javalec/day25/throwsex/ThrowsExClass.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day26/collections/HashMapEx.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day27/collections/HashSetEx.java" />
+        <option value="$PROJECT_DIR$/src/com/javalec/day27/collections/HashMapEx.java" />
       </list>
     </option>
   </component>
@@ -385,27 +385,7 @@
       <recent name="com.javalec.day11.children" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapEx">
-    <configuration default="false" name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javalec.day24.timerex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.javalec.day24.timerex.MainClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="wizEx" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.HashSetEx">
     <configuration default="false" name="TokenizerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -474,6 +454,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.javalec.day27.collections.HashMapEx" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wizEx" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HashSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javalec.day27.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.javalec.day27.collections.HashSetEx" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -787,19 +787,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainClass (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TokenizerEx" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MainClass (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MainClass" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HashMapEx" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TokenizerEx" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainClass (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MainClass" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HashMapEx" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HashSetEx" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HashMapEx" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainClass" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainClass (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TokenizerEx" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HashSetEx" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HashMapEx" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainClass (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TokenizerEx" />
       </list>
     </recent_temporary>
   </component>
@@ -831,13 +831,7 @@
       <workItem from="1430355883131" duration="12466000" />
       <workItem from="1430439552327" duration="9892000" />
       <workItem from="1430456816173" duration="6033000" />
-      <workItem from="1430873025762" duration="829000" />
-    </task>
-    <task id="LOCAL-00009" summary="IF 예제">
-      <created>1430202024953</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1430202024953</updated>
+      <workItem from="1430873025762" duration="968000" />
     </task>
     <task id="LOCAL-00010" summary="IF esle 예제">
       <created>1430203526910</created>
@@ -1127,11 +1121,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430873232261</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="hashset 학습">
+      <created>1430873876044</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1430873876044</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58574000" />
+    <option name="totallyTimeSpent" value="58713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1155,7 +1155,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.49083665" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.439734" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382157" sideWeight="0.439734" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.4876494" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1187,7 +1187,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="추상 메소드 학습" />
     <MESSAGE value="태그 수정" />
     <MESSAGE value="핸드폰 인터페이스 예제" />
     <MESSAGE value="핸드폰 메소드 수정" />
@@ -1212,7 +1211,8 @@
     <MESSAGE value="try catch 학습" />
     <MESSAGE value="throws 학습" />
     <MESSAGE value="HashMap 학습 패키지 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMap 학습 패키지 수정" />
+    <MESSAGE value="hashset 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashset 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1589,15 +1589,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day27/collections/HashMapEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day27/collections/HashSetEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9265659">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.412527">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="e#363#371#0" expanded="true" />
           </folding>
