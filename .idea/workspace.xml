@@ -871,13 +871,7 @@
       <workItem from="1430355883131" duration="12466000" />
       <workItem from="1430439552327" duration="9892000" />
       <workItem from="1430456816173" duration="6033000" />
-      <workItem from="1430873025762" duration="2085000" />
-    </task>
-    <task id="LOCAL-00014" summary="배열 연습">
-      <created>1430204285935</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1430204285935</updated>
+      <workItem from="1430873025762" duration="2096000" />
     </task>
     <task id="LOCAL-00015" summary="배열 문법 학습">
       <created>1430205982459</created>
@@ -1167,11 +1161,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430875096836</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="git 제외파일 수정">
+      <created>1430875120058</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1430875120058</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59830000" />
+    <option name="totallyTimeSpent" value="59841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
