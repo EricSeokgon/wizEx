@@ -31,13 +31,13 @@ public class VoteTread implements Runnable {
                 for (int i = 0; i < sum; i++) {
                     sb.append("*");
                 }
-                System.out.println(Thread.currentThread().getName() + " 개표율 : " + "\t:" + sb);
+                System.out.println(Thread.currentThread().getName() + " 개표율 : " + sum + "\t:" + sb);
                 break;
             } else {
                 for (int i = 0; i < sum; i++) {
                     sb.append("*");
                 }
-                System.out.println(Thread.currentThread().getName() + " 개표율 : " + "\t:" + sb);
+                System.out.println(Thread.currentThread().getName() + " 개표율 : " + sum + "\t:" + sb);
             }
             try {
                 Thread.sleep(200);
