@@ -30,16 +30,15 @@ public class MakeClientSocket {
             BufferedReader sReader = new BufferedReader(new InputStreamReader(System.in));
 
             while ((str = sReader.readLine()) != null) {
-                writer.print(str);
+                writer.println(str);
                 System.out.println("output : " + str);
             }
+
             writer.close();
             reader.close();
             sReader.close();
             socket.close();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+        } catch (Exception e) {}
     }
 
     public static void main(String[] args) {

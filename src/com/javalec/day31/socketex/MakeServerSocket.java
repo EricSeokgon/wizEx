@@ -24,9 +24,9 @@ public class MakeServerSocket {
     String lineStr;
 
     public MakeServerSocket() {
-
         try {
             serverSocket = new ServerSocket(2000);
+
             while (true) {
                 socket = serverSocket.accept();
                 System.out.println("Client 요청");
@@ -38,14 +38,13 @@ public class MakeServerSocket {
                     writer.write(lineStr);
                     System.out.println("input : " + lineStr);
                 }
+
                 writer.close();
                 reader.close();
                 socket.close();
             }
         } catch (Exception e) {
-            System.out.println(e.getMessage());
         }
-
 
     }
 
