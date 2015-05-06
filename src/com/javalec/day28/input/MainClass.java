@@ -1,4 +1,4 @@
-package com.javalec.day28.ioEx;
+package com.javalec.day28.input;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
