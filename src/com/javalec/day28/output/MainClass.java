@@ -14,15 +14,22 @@ import java.io.OutputStream;
  */
 public class MainClass {
     public static void main(String[] args) {
-
+        OutputStream os = null;
         try {
-            OutputStream os = new FileOutputStream("C:\\Users\\sklee\\IdeaProjects\\wizEx\\jaout.txt");
+            os = new FileOutputStream("C:\\Users\\sklee\\IdeaProjects\\wizEx\\jaout.txt");
             String str = "오늘 날씨는 아주 좋습니다.";
             byte[] bs = str.getBytes();
             os.write(bs);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
+        } finally {
+            try {
+                if (os != null) os.close();
+            } catch (Exception e2) {
+                System.out.println(e2.getMessage());
+            }
+
         }
     }
 }
