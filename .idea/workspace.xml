@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day27/collections/MainClass.java" afterPath="$PROJECT_DIR$/src/com/javalec/day27/collections/MainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/javalec/day27/collections/Student.java" afterPath="$PROJECT_DIR$/src/com/javalec/day27/collections/Student.java" />
+    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="hashmap 학생 삭제 기능 추가">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -140,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/com/javalec/day22/calendarex/CalendarEx.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day22/currenttimemillisex/CurrentTimeMillisEx.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day23/randomex/MainClass.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/javalec/day23/scannerex/ScannerEx.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day23/wrapper/WrapperEx.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -158,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/com/javalec/day27/collections/HashMapEx.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day27/collections/Student.java" />
         <option value="$PROJECT_DIR$/src/com/javalec/day27/collections/MainClass.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -369,6 +368,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wizEx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wizEx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -859,13 +872,7 @@
       <workItem from="1430355883131" duration="12466000" />
       <workItem from="1430439552327" duration="9892000" />
       <workItem from="1430456816173" duration="6033000" />
-      <workItem from="1430873025762" duration="1922000" />
-    </task>
-    <task id="LOCAL-00012" summary="for 예제">
-      <created>1430203844742</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1430203844742</updated>
+      <workItem from="1430873025762" duration="2052000" />
     </task>
     <task id="LOCAL-00013" summary="패키지 수정">
       <created>1430204108005</created>
@@ -1155,11 +1162,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430874561153</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="hashmap 학생 삭제 기능 추가">
+      <created>1430874970080</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1430874970080</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59667000" />
+    <option name="totallyTimeSpent" value="59797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1244,7 +1257,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="핸드폰 메소드 수정" />
     <MESSAGE value="싱글턴 패턴 예제" />
     <MESSAGE value="전략패턴 로봇 구현" />
     <MESSAGE value="로봇 인터페이스 구현" />
@@ -1269,7 +1281,8 @@
     <MESSAGE value="hashset 학습" />
     <MESSAGE value="hashmap 데이터 추가" />
     <MESSAGE value="hashmap 학생 학년 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashmap 학생 학년 예제" />
+    <MESSAGE value="hashmap 학생 삭제 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashmap 학생 삭제 기능 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1527,26 +1540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10461538">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day23/scannerex/ScannerEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1657,6 +1654,22 @@
             <element signature="e#779#780#0" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05230769">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
