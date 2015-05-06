@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javalec/day28/ioEx/MainClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jain.txt" />
+    <list default="true" id="a7c6b75a-0ebb-4c4b-8a9a-5824ddebda81" name="Default" comment="inputstream 학습">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wizEx.iws" />
@@ -39,14 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javalec/day28/ioEx/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63282937">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03671706">
+              <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -832,13 +840,7 @@
       <workItem from="1430355883131" duration="12466000" />
       <workItem from="1430439552327" duration="9892000" />
       <workItem from="1430456816173" duration="6033000" />
-      <workItem from="1430873025762" duration="3936000" />
-    </task>
-    <task id="LOCAL-00019" summary="생성자 생성 및 게터 세터 생성">
-      <created>1430280561794</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1430280561794</updated>
+      <workItem from="1430873025762" duration="3977000" />
     </task>
     <task id="LOCAL-00020" summary="학사관리시스템 초기 파일 생성">
       <created>1430281099029</created>
@@ -1128,11 +1130,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430876045632</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="inputstream 학습">
+      <created>1430876981368</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1430876981368</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61681000" />
+    <option name="totallyTimeSpent" value="61722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1217,7 +1225,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="로봇 인터페이스 구현" />
     <MESSAGE value="로봇 구형 리팩토링" />
     <MESSAGE value="로봇 인터페이스 추가" />
     <MESSAGE value="워크스페이스 변경" />
@@ -1242,7 +1249,8 @@
     <MESSAGE value="hashmap 학생 삭제 기능 추가" />
     <MESSAGE value="git 제외파일 수정" />
     <MESSAGE value="iterator 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterator 학습" />
+    <MESSAGE value="inputstream 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="inputstream 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1571,14 +1579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05230769">
@@ -1644,11 +1644,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javalec/day28/ioEx/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63282937">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03671706">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
